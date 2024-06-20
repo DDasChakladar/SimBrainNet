@@ -1,0 +1,8 @@
+The folder contains two Python notebook files. To run the code follow the steps:
+ 1. Create an EEGLAB Dataset from experimental public data (see the paper) for each subject with the preprocessing steps mentioned in the paper.
+ 2. The EEGLAB dataset(.set) file is used as the input to the MTEGraph.ipynb file.
+ 3. Once the MTE graphs are created for two cognitive events, pass those graphs to the SimBrainNet.ipynb file.
+ 4. Check the SimBraiNet algorithm first from the paper and then follow different operations (substitution, insertion, and deletion) 
+ to compute the Similarity score between graphs. 
+
+
